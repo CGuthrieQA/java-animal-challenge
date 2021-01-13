@@ -6,6 +6,10 @@ public class Frog extends Animal {
 	protected String size = "small";
 	protected int weight = 200;
 
+	public boolean frogMethod() {
+		return true;
+	}
+	
 	@Override
 	public void noise() {
 		System.out.println("croak");

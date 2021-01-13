@@ -5,6 +5,10 @@ public class Duck extends Animal {
 	protected int age = 2;
 	protected String size = "medium";
 	protected int weight = 600;
+
+	public boolean duckMethod() {
+		return true;
+	}
 	
 	@Override
 	public void noise() {

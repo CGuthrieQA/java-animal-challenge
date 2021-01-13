@@ -1,10 +1,14 @@
 package com.qa.main;
 
-public class Dog extends Animal {
+public class Dog extends Mammal {
 	
 	protected int age = 7;
 	protected String size = "large";
 	protected int weight = 5000;
+
+	public boolean dogMethod() {
+		return true;
+	}
 	
 	@Override
 	public void noise() {

@@ -6,6 +6,10 @@ public class Moth extends Animal {
 	protected String size = "tiny";
 	protected int weight = 10;
 
+	public boolean mothMethod() {
+		return true;
+	}
+	
 	@Override
 	public void noise() {
 		System.out.println("flutter");

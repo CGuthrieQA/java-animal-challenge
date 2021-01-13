@@ -13,3 +13,11 @@
 4. Draw a diagram to explain your class hierarchy.
 
 ![diagram](diagram.png)
+
+## extended
+
+* you've implemented flyable and swimable across the top of animal, but what if we had a Penguin class? or a FlyingFish?
+
+* there's only two 'layers' of the hierarchy - Animal and each of the four other classes. what if we had Mammal or Crustacean?
+
+* what if each animal also had their own functionality other than what was inherited from the base class Animal?
